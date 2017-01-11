@@ -248,7 +248,7 @@ class WCS(WCSBase):
         - `int`: a bit field selecting specific extensions to accept.
           See :ref:`relaxread` for details.
 
-    naxis : int or sequence, optional
+    naxis : int or sequence, optional hainn???
         Extracts specific coordinate axes using
         :meth:`~astropy.wcs.Wcsprm.sub`.  If a header is provided, and
         *naxis* is not ``None``, *naxis* will be passed to
